@@ -6,7 +6,7 @@ from Interfaces.ChatInterfaces import ChatRespuesta, InputMessage
 
 Router = APIRouter()
 
-cliente = OpenAI(api_key="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",
+cliente = OpenAI(api_key="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",
                  base_url="https://openrouter.ai/api/v1",)
 
 @Router.post("/ai-chat")
